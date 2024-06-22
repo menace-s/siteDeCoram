@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+body {
+  font-family: "Outfit", sans-serif;
+}
+/* ##############################################
+NAVBAR
+##############################################  */
+nav{
+    background-color: #fff;
+}
+.navbar-brand {
+  width: 80px;
+}
+.nav-link:hover{
+    transition: color 0.3s ease-in-out;
+}
+.nav-link:hover, .navbar-nav .nav-link.active{
+  color: #fa6700;
+}
+
+.nav-link,
+.btn-contact {
+  font-size: 1.2rem;
+}
+.btn-contact {
+  height: 49px;
+  width: 180px;
+  border: 2px solid #fa6700;
+  background-color: rgb(255, 255, 255);
+}
+.btn-contact a {
+  color: black;
+}
