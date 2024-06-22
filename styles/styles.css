@@ -1,33 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 body {
   font-family: "Outfit", sans-serif;
 }
+
 /* ##############################################
-NAVBAR
-##############################################  */
-nav{
-    background-color: #fff;
-}
+   NAVBAR
+############################################## */
+
+nav {
+  background-color: #ffffff;
+} 
+
 .navbar-brand {
   width: 80px;
 }
-.nav-link:hover{
-    transition: color 0.3s ease-in-out;
-}
-.nav-link:hover, .navbar-nav .nav-link.active{
-  color: #fa6700;
-}
 
-.nav-link,
-.btn-contact {
+.nav-link {
+  color: #000000;
   font-size: 1.2rem;
 }
+
+.nav-link:hover, .navbar-nav .nav-link.active {
+  color: #fa6700;
+  transition: color 0.3s ease-in-out;
+}
+
 .btn-contact {
   height: 49px;
   width: 180px;
   border: 2px solid #fa6700;
   background-color: rgb(255, 255, 255);
+  font-size: 1.2rem;
 }
+
 .btn-contact a {
   color: black;
 }
