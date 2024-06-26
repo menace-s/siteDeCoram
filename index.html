@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SOCIETES CORAM DEO</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/bootstrap.min.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <script src="./scripts/bootstrap.bundle.min.js" defer></script>
@@ -14,45 +19,200 @@
     ############################################## -->
     <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
       <div class="container">
-          <a href="./index.html">
-              <img src="./assets/images/logo coram.jpg" alt="Life magazine" class="navbar-brand">
-          </a>
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo coram.jpg"
+            alt="Life magazine"
+            class="navbar-brand"
+          />
+        </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-              aria-labelledby="offcanvasNavbarLabel">
-
-              <div class="offcanvas-header text-black">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CORAM DEO</h5>
-                  <button type="button" class="btn-close btn-close-black shadow-none" data-bs-dismiss="offcanvas"
-                      aria-label="Close"></button>
-              </div>
-
-              <div class="offcanvas-body pt-2 p-5 pt-lg-0 p-lg-0">
-                  <ul class="navbar-nav justify-content-center align-items-lg-center flex-grow-1 pe-3">
-                      <li class="nav-item mt-2 mt-lg-0">
-                          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                      </li>
-                      <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
-                          <a class="nav-link " href="#">À Propos</a>
-                      </li>
-                      <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
-                          <a class="nav-link " href="#">Nos Projets</a>
-                      </li>
-                  </ul>
-                  <button class="btn-contact">
-                    <a href="" class="text-decoration-none">Contactez-nous</a>
-                  </button>
-              </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header text-black">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CORAM DEO</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-black shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
+
+          <div class="offcanvas-body pt-2 p-5 pt-lg-0 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-lg-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mt-2 mt-lg-0">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
+                <a class="nav-link" href="#">À Propos</a>
+              </li>
+              <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
+                <a class="nav-link" href="#">Nos Projets</a>
+              </li>
+            </ul>
+            <button class="btn-contact">
+              <a href="" class="text-decoration-none">Contactez-nous</a>
+            </button>
+          </div>
+        </div>
       </div>
-  </nav>
+    </nav>
 
     <!-- ##############################################
-    Header
+    slider
     ############################################## -->
-   
+    <div class="container-fluid px-0">
+      <img src="./assets/images/slide1.jpg" alt="" class="img-fluid" />
+    </div>
+    <!-- ##############################################
+    Info sur Coram
+    ############################################## -->
+    <div class="container first-container my-5 mx-auto">
+      <div class="row">
+        <div class="col-sm">
+          <img
+            src="./assets/images/afficheCoram.jpg"
+            alt=""
+            class="img-fluid"
+            style="min-width: 300px"
+          />
+        </div>
+        <div class="col-sm d-flex align-items-center">
+          <div>
+            <h1>
+              LES <span style="color: #fa6700">SOCIETES CORAM DEO</span> VOUS
+              DISENT AKWABA !
+            </h1>
+            <p class="fs-3 text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium itaque, unde incidunt id earum repudiandae eius animi
+              nesciunt, porro quibusdam corrupti consequuntur voluptatem illum
+              deserunt, quidem ipsum ullam quasi asperiores.
+            </p>
+            <button class="btn-contact">
+              <a href="" class="text-decoration-none">En savoir plus</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##############################################
+    service container
+    ############################################## -->
+    <section class="first-section service container py-4">
+      <h1 class="text-center fs-1">Découvrez nos services immobiliers</h1>
+      <p class="text-center text-body-tertiary">
+        Les SOCIÉTÉS CORAM DEO offrent une gamme complète de services
+      </p>
+      <div
+        class="container text-center d-flex align-items-center justify-content-center my-5"
+      >
+        <div class="row row-gap-3">
+          <div class="col d-flex align-items-center justify-content-center">
+            <div class="card shadow-lg" style="width: 20rem">
+              <img
+                src="./assets/images/panda.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <div class="card shadow-lg" style="width: 20rem">
+              <img
+                src="./assets/images/panda.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <div class="card shadow-lg" style="width: 20rem">
+              <img
+                src="./assets/images/panda.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="second-section container container-fluid">
+      <h1 class="text-center">Nos partenaires</h1>
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/images/logoRust.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="./assets/images/logoAwu.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img
+              src="./assets/images/logoBerakah.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="seeProject container container-fluid d-flex align-items-center justify-content-center"
+      >
+        <div class="container container-fluid">
+          <h1 class="fs-1 text-center fw-bold text-light">
+            Découvrez nos projets immobiliers exceptionnels
+          </h1>
+          <div
+            class="container container-fluid d-flex align-items-center justify-content-center"
+          >
+            <!-- <button class="btn-contact mx-auto">
+              <a href="" class="text-decoration-none">Découvrir</a>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-5 d-flex align-items-center">
+      <div class="container container-fluid"></div>
+    </footer>
   </body>
 </html>
