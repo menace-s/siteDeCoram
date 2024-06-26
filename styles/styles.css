@@ -78,8 +78,17 @@ footer {
 }
 footer > div {
   height: 350px;
-  background-color: #fa68007e;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  background-color: #fa6800cf;
+  /* -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px); */
 
+}
+@media screen and (max-width: 480px) {
+  .seeProject {
+    background-image: url("../assets/images/brique1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+  }
 }
