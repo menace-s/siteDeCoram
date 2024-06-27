@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -54,22 +54,20 @@ nav {
    Body
 ############################################## */
 
-.seeProject {
-  background-image: url("../assets/images/brique1.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+
+
+.first-section {
+  background-color: #FFDDAC;
 }
-.seeProject,
-.second-section {
-  margin-top: 100px;
-}
+/* ##############################################
+  voir nos projets
+############################################## */
+
 /* ##############################################
   footer
 ############################################## */
 footer {
-  background-image: url('../assets/images/footerBackground1.jpg');
+  background-image: url("../assets/images/footerBackground1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
@@ -77,18 +75,8 @@ footer {
   height: 500px;
 }
 footer > div {
-  height: 350px;
-  background-color: #fa6800cf;
+  height: 400px;
+  background-color: #fa6800f0;
   /* -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px); */
-
-}
-@media screen and (max-width: 480px) {
-  .seeProject {
-    background-image: url("../assets/images/brique1.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
-  }
 }
